@@ -35,10 +35,10 @@
                         </div>
                         <!-- /.title -->
                         <ul class="links-list">
-                            <li><a href="#"><i class="fas fa-angle-right"></i>Membranas Asfálticas</a></li>
-                            <li><a href="#"><i class="fas fa-angle-right"></i>Membranas Líquidas</a></li>
-                            <li><a href="#"><i class="fas fa-angle-right"></i>Imprimantes</a></li>
-                            <li><a href="#"><i class="fas fa-angle-right"></i>Terminación</a></li>
+                            <li><a href="{{ route('asfalticas') }}"><i class="fas fa-angle-right"></i>Membranas Asfálticas</a></li>
+                            <li><a href="{{ route('liquidas') }}"><i class="fas fa-angle-right"></i>Membranas Líquidas</a></li>
+                            <li><a href="{{ route('imprimantes') }}"><i class="fas fa-angle-right"></i>Imprimantes</a></li>
+                            <li><a href="{{ route('terminacion') }}"><i class="fas fa-angle-right"></i>Terminación</a></li>
                         </ul>
                         <!-- /.links-list -->
                     </div>
