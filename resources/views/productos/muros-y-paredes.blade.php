@@ -92,6 +92,24 @@
     </div>
 </section>
 
+<section class="cta-style-one" style="margin-top:50px;">
+    <div class="inner">
+        <div class="container">
+            <div class="title pull-left">
+                <h3>¿Quiere saber que cantidad de rollos necesita?</h3>
+            </div>
+            <!-- /.title pull-left -->
+            <div class="btn-box pull-right">
+                <a href="#" class="cta-btn">Utilice nuestro calculador 100% online</a>
+            </div>
+            <!-- /.btn-box -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.inner -->
+</section>
+<!-- /.cta-style-one -->
+
 <section id="te-asistimos">
     <div class="container">
         <div class="row">
