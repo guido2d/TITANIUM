@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'index');
+Route::view('/preguntas-frecuentas', 'faq')->name('faq');
+Route::view('/membranas-asfalticas', 'productos.membranas-asfalticas')->name('asfalticas');
+Route::view('/membranas-liquidas', 'productos.membranas-liquidas')->name('liquidas');
+Route::view('/imprimantes', 'productos.imprimantes')->name('imprimantes');
+Route::view('/terminacion', 'productos.terminacion')->name('terminacion');
+
+Route::view('/membranas-asfalticas/decorativas/muros-y-paredes', 'productos.muros-y-paredes')->name('muros-paredes');
